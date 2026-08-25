@@ -169,7 +169,7 @@ As partes já gravadas são reconhecidas e não são baixadas de novo.
 ## Estado do projeto
 
 Foi usado de verdade: **34 processos, mais de 50 GB e mais de 220 mil
-peças** baixados do e-SAJ real, em lotes que duraram dias.
+peças** baixados do e-SAJ real.
 
 Comprovado em uso real:
 
