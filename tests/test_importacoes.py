@@ -10,6 +10,8 @@ máquina sem suporte gráfico.
 import subprocess
 import sys
 
+import pytest
+
 
 def _carregou(codigo: str, modulo: str) -> bool:
     """
@@ -65,6 +67,7 @@ class TestOQuePrecisaCarregarCarrega:
     """
 
     def test_a_interface_grafica_ao_ser_pedida(self):
+        pytest.importorskip('tkinter', reason='tkinter ausente')
         assert _carregou('from esaj_autos import gui', 'tkinter')
 
     def test_atalhos_do_pacote(self):

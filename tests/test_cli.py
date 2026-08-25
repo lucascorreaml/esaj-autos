@@ -322,7 +322,7 @@ class TestJanelaNaoRelogaEmVao:
         Entrar de novo com sessão ativa gastaria um pedido de código à
         toa, e o e-SAJ impõe carência entre um e outro.
         """
-        import tkinter as tk
+        tk = pytest.importorskip('tkinter', reason='tkinter ausente')
 
         from esaj_autos import gui
 
@@ -362,7 +362,7 @@ class TestListaNaJanela:
     """
 
     def _app(self, monkeypatch):
-        import tkinter as tk
+        tk = pytest.importorskip('tkinter', reason='tkinter ausente')
 
         from esaj_autos import gui
 
