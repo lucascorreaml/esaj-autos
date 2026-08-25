@@ -1194,7 +1194,8 @@ class TestTicketDeOutraSessao:
 
         monkeypatch.setattr(pd.time, 'sleep', lambda _: None)
         conteudo = b'PK\x03\x04' + b'z' * 60
-        dados = self._registro(tmp_path, CNJ_A)
+        # O que importa da chamada é gravar o registro do pedido.
+        self._registro(tmp_path, CNJ_A)
         url_novo = 'https://esaj.tjsp.jus.br/pd/novo?t=2'
         url_arquivo = 'https://esaj.tjsp.jus.br/pd/pronto.zip'
 

@@ -27,7 +27,6 @@ diagnóstico sem expor dados do processo.
 """
 
 import getpass
-import json
 import logging
 import os
 import sys
