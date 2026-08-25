@@ -36,6 +36,18 @@ Se você não pode ver o processo no e-SAJ, não vai poder baixá-lo aqui.
 
 ## Instalação
 
+### Windows, sem instalar nada
+
+Baixe o `CopiaIntegralAutos.exe` na
+[página de versões](https://github.com/lucascorreaml/esaj-autos/releases)
+e abra com duplo clique. Não precisa de Python nem de terminal.
+
+O Windows costuma avisar que o programa é de origem desconhecida, por
+não ser assinado digitalmente: em **"Mais informações" → "Executar
+assim mesmo"**.
+
+### Com Python
+
 Precisa de [Python 3.10 ou mais novo](https://www.python.org/downloads/).
 Na instalação, marque **"Add Python to PATH"**.
 
