@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Empacotamento
+build/
+dist/
+*.spec
+
+# Autos baixados: arquivos grandes, com dados de processo
+autos/
+*.zip
+*.parcial
+preparacao.json
+
+# Lista de processos do usuário
+processos.txt
+
+# Ambiente
+.env
